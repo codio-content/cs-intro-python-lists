@@ -5917,8 +5917,8 @@
    "initial": "my_list = [\"Hello\"]\nprint(my_list * 3)\nmy_list = (\"Hello\") #distractor\nprint(my_list x 3) #distractor\nprint(my_list + 3) #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "To repeat a list in Python, you can use the multiplication operator (`*`) with a list. First declare the list you want. The print that list multiplied by 3.\n\n```python\nmy_list = [\"Hello\"]\nprint(my_list * 3)\n```",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
    "metadata": {
@@ -5967,7 +5967,7 @@
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": true,
+   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -6427,7 +6427,7 @@
      "answer": "You want to remove an element by its value, not its index"
     }
    ],
-   "guidance": "All of the options are reasons to use the `remove` method.",
+   "guidance": "The `remove` method allows you to remove an element from a list. It also allows you to remove by the element by its value and not its index. However, the `remove` method does not return a value. Therefore, you cannot have access to the element that was deleted from the list.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -6520,7 +6520,7 @@
   "source": {
    "name": "reading question index method",
    "showName": false,
-   "instructions": "## Reading Question\nFill in the blank below so that the code snippet returns the string `4`.",
+   "instructions": "## Reading Question\nFill in the blank below so that the code snippet returns the index `4`.",
    "text": "my_list = [flower, 3, True, 16.4, \"flower\", 32]\nmy_list.index(<<<\"flower\">>>)",
    "guidance": "The answer is not `flower` because that would return index 0. The string \"flower\" is located at index 4. So `my_list.index(\"flower\")`.",
    "showGuidanceAfterResponse": true,
@@ -7341,7 +7341,7 @@
    "name": "formative assessment 2 list iteration",
    "showName": false,
    "instructions": "## List Iteration\nFill in the blanks below to make a while loop that iterates over a list called `colors` and prints each element in the list.",
-   "text": "length = <<<len(colors)>>>\ni = <<<0>>>\n\nwhile <<<i>>> < <<<length>>>:\n    print(<<<colors[i]>>>)\n    i += <<<1>>>",
+   "text": "```python\nlength = <<<len(colors)>>>\ni = <<<0>>>\n\nwhile <<<i>>> < <<<length>>>:\n    print(<<<colors[i]>>>)\n    i += <<<1>>>\n```",
    "guidance": "While loops require that you determine the length of a list, create an index variable, check to see if the index is greater than the length of the list, reference the element with the list name and index, and increment the index variable.\n\n```python\nlength = len(colors)\ni = 0 \n\nwhile i < length:\n    print(colors[i]) \n    i += 1 \n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -7369,13 +7369,7 @@
     "files": [
      "code/lists/list-while-loop.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/lists/list-while-loop.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT iterate over a list with a while loop",
@@ -7389,7 +7383,7 @@
      "1"
     ],
     "text": [
-     "length = ",
+     "```python\nlength = ",
      0,
      "\ni = ",
      0,
@@ -7400,7 +7394,8 @@
      ":\n    print(",
      0,
      ")\n    i += ",
-     0
+     0,
+     "\n```"
     ]
    }
   }
@@ -7549,7 +7544,7 @@
   "source": {
    "name": "lab list slicing a list",
    "showName": false,
-   "instructions": "Fill in the blanks below. Using the list `my_list`, complete the `slice` operator so that it returns `[21, 17, 33]`.",
+   "instructions": "## Slice Operator\n\nFill in the blanks below. Using the list `my_list`, complete the `slice` operator so that it returns `[21, 17, 33]`.",
    "text": "my_list = [45, 99, 21, 17, 33, 7]\nmy_list[<<<2>>>:<<<5>>>]",
    "guidance": "The first element in the answer is `21`. Starting with 0, the index of `21` is 2. The third element in the answer is `33`. The index for `33` is 4. However, the second parameter of the `slice` operator does not include the element. Use 5 to ensure the slice includes `33`.\n\n`my_list[2:5]`",
    "showGuidanceAfterResponse": true,
@@ -7595,13 +7590,13 @@
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-1990229047",
   "source": {
-   "name": "lab sorting colors",
-   "showName": true,
-   "instructions": "Drag the appropriate code blocks to the box below. Your program should use a list, the `in` operator, and a conditional to print `\"True\"`. **Hint**, not all of the code blocks will be used.",
-   "initial": "my_list = [11, 71, 65, 42, 3]\nif 3 in my_list:\n    print(\"True\")\nif 6 in list: #distractor\nmy_list = [13, 33, 23, 88, 9] #distractor\nlist_1 = [3, 52, 198, 76, 20] #distractor",
+   "name": "lists lab 4 question",
+   "showName": false,
+   "instructions": "## The `in` Operator\n\nCreate a program that prints `True` by dragging the appropriate code blocks to the box below. You program must do the following things:\n* Be two lines long\n* Declare a list\n* Print `\"True\"`\n\n**Hint**, not all of the code blocks will be used.",
+   "initial": "my_list = [11, 71, 65, 42, 3]\nprint(3 in my_list)\nmy_list = [13, 33, 23, 88, 9] #distractor\nlist_1 = [3, 52, 198, 76, 20] #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
-   "guidance": "Here is the solution:\n```python\nmy_list = [11, 71, 65, 42, 3]\nif 3 in my_list:\n    print(\"True\")\n```\n\n* `if 6 in list:` - 6 does exist in any of the lists\n* `my_list = [13, 33, 23, 88, 9]` - does not have the element 3\n* `list_1 = [3, 52, 198, 76, 20]` - there is no `in` statement that references `list_1`",
+   "guidance": "Here is the solution:\n```python\nmy_list = [11, 71, 65, 42, 3]\nprint(3 in my_list)\n```\n\n* `my_list = [13, 33, 23, 88, 9]` - does not have the element of `3`\n* `list_1 = [3, 52, 198, 76, 20]` - there is no `in` statement that references `list_1`",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -7875,7 +7870,7 @@
    "instructions": "**Do not** submit your code to be graded with the variable strings. The auto-grader will declare the variable for you.",
    "command": "python3 .guides/secure/lists-exercises-3-test.py",
    "preExecuteCommand": "",
-   "guidance": "To arrange a list in alphabetical order, use the `sort` method. To remove the first element from the list, you can use the `pop` method, but don't forget to pass 0 as the parameter so you will remove the first element. If you don't pass 0 as a parameter, `pop` will remove the last element. You can also use `print(strings[0])` as well.\n\n```python\nstrings.sort()\nprint(strings.pop(0))\n```",
+   "guidance": "Here are two ways to solve this problem.\n\n### Use `sort`\nTo arrange a list in alphabetical order, use the `sort` method. To remove the first element from the list, you can use the `pop` method, but don't forget to pass 0 as the parameter so you will remove the first element. If you don't pass 0 as a parameter, `pop` will remove the last element. You can also use `print(strings[0])` as well.\n\n```python\nstrings.sort()\nprint(strings.pop(0))\n```\n\n### Use `min`\nThe `min` function will return the \"smallest\" element. When dealing with strings, the \"smallest\" string will the one that comes first alphabetically.\n\n```python\nprint(min(strings))\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -8032,7 +8027,7 @@
    "instructions": "**Do not** submit your code to be graded with the variable `numbers`. The auto-grader will declare the variable for you.",
    "command": "python3 .guides/secure/lists-exercises-5-test.py",
    "preExecuteCommand": "",
-   "guidance": "The solution that works best is one in which you can easily access the index of element as you iterate through the list. The traditional for loop that uses `numbers[numbers.index(number)]` to access the index can cause a problem when the list `numbers` is full of the same number. The `index` method returns the lowest index for repeating elements in a list.\n\nThis solution will use a while loop. First, calculate the length of the list and declare a variable for the index as 0. Set up your while loop and ask if the index is an odd number. If yes, insert a `'*'` at the location of `index`. Once you insert a new element in the list, you need to increment the `length` variable to reflect this change. Because this is a while loop, you need to manually increment the `index` variable. Finally, print the list.\n\n```python\nlength = len(numbers)\nindex = 0\n\nwhile index < length:\n  if index % 2 != 0:\n    numbers.insert(index, '*')\n    length += 1\n  index += 1\n    \nprint(numbers)\n```",
+   "guidance": "This solution will use a while loop. First, calculate the length of the list and declare a variable for the index as 0. Set up your while loop and ask if the index is an odd number. If yes, insert a `'*'` at the location of `index`. Once you insert a new element in the list, you need to increment the `length` variable to reflect this change. Because this is a while loop, you need to manually increment the `index` variable. Finally, print the list.\n\n```python\nlength = len(numbers)\nindex = 0\n\nwhile index < length:\n  if index % 2 != 0:\n    numbers.insert(index, '*')\n    length += 1\n  index += 1\n    \nprint(numbers)\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -9531,7 +9526,7 @@
     }
    ],
    "guidance": "There two things that need to be done. One is make `\"Python\"` come before `\"Methods\"` in the list. That is accomplished with the `reverse` method. The next thing to do is to add `\"List\"` between `\"Python\"` and `\"Methods\"`. Use the `insert` method to do this.\n\n```python\nmy_list.reverse()\nmy_list.insert(1, \"List\")\n```",
-   "showGuidanceAfterResponse": false,
+   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,

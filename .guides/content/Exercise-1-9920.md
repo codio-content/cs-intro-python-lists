@@ -3,7 +3,7 @@
 ## Lists Exercise 1
 
 **Problem**
-Write a program that takes a list of integers called `numbers` and replaces each element greater than 10 with a `'*'` (**Note** use single quotes, the auto-grader will not work with double quotes). Print the new version of `numbers`.
+Write a program that takes a list of integers called `numbers` and replaces each element greater than 10 with a `'*'`. Print the new version of `numbers`.
 
 **Expected Output**
 * If `numbers = [30, 1, 20, 4]` then you will print `['*', 1, '*', 4]`

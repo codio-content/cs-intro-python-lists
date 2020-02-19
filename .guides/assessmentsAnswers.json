@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "taskId": "multiple-choice-2380011685",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1661992395",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-1990229047",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ }
+]

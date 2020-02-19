@@ -7,7 +7,7 @@ Write a program that takes a list called `my_list` (it could be a list of any da
 
 **Expected Output**
 * If `my_list = ['hi', 'hello']` then you will print `['hi', 'hello', 'hi', 'hello', 'hi', 'hello']`
-* If `my_list = [65, 111, 2, 81, 65, 32]` then you will print `['65', '111', '2', '81', '65', '32']`
+* If `my_list = [65, 111, 2, 81, 65, 32]` then you will print `[65, 111, 2, 81, 65, 32]`
 
 **Important**
 Do not edit the code in the top section. This code is necessary for the auto-grader to work. Add your code in the section below. Clicking the `TEST 1` button will test your code with `my_list = ['hi', 'hello']`. `TEST 2` will test your code with `my_list = [65, 111, 2, 81, 65, 32]`.
