@@ -713,6 +713,89 @@
    "learningObjectives": ""
   },
   {
+   "id": "d4fb2fed-dbc6-c325-7484-6f98c8e734ba",
+   "title": "Learning Objectives - 2D Lists",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---2D-Lists-d4fb.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e487c1c9-f22a-f2d8-d987-d01d402adafb",
+   "title": "Declaring 2D Lists",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/lists/declare_2d_lists.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Declaring-2D-Lists-e487.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d09a9c65-77af-33b4-5448-6eae2285d681",
+   "title": "Adding Elements to 2D Lists",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Adding-Elements-to-2D-Lists-d09a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "562cfbda-648f-d2b3-3dac-b6ac10d9af71",
+   "title": "Accessing Elements in 2D Lists",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Accessing-Elements-in-2D-Lists-562c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "979d5bac-1e1f-81c8-a821-917d1bd5e57b",
+   "title": "Iterating Over 2D  Lists",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Iterating-Over-2D--Lists-979d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d77df8fb-6b3f-7553-046d-022d2f089de7",
+   "title": "Printing 2D Lists",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Printing-2D-Lists-d77d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "28a06cd9-a536-8aba-92cb-36c545ec8be7",
    "title": "Lab 1",
    "files": [

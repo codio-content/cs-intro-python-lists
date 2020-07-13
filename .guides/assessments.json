@@ -9624,5 +9624,74 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT determine how many times a for loop will run"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1967016213",
+  "source": {
+   "name": "declaring 2d lists reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nSelect all examples of declaring a 2D list. **Note:** there is more than one example.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "8033e5d3-e45c-1c4a-a853-3f45ffd0772d",
+     "correct": false,
+     "answer": "```python\nmy_2d_list = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]\n```"
+    },
+    {
+     "_id": "3f39a1f5-6708-396d-6950-781924f96e10",
+     "correct": true,
+     "answer": "```python\nmy_2d_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n```"
+    },
+    {
+     "_id": "c214e276-4d65-c071-c0bb-cda0730b70cc",
+     "correct": false,
+     "answer": "```python\nmy_2d_list = [{1, 2, 3}, {4, 5, 6}, {7, 8, 9}]\n```"
+    },
+    {
+     "_id": "0f97fa81-072e-b716-5b92-6016128aee56",
+     "correct": true,
+     "answer": "```python\nmy_2d_list = [\n               [1, 2, 3],\n               [4, 5, 6],\n               [7, 8, 9]\n             ]\n```"
+    }
+   ],
+   "guidance": "The correct answers are:\n```python\nmy_2d_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n```\nand\n```python\nmy_2d_list = [\n               [1, 2, 3],\n               [4, 5, 6],\n               [7, 8, 9]\n             ]\n```\n2D lists require that both the outer and inner lists use square brackets (`[]`). Two of the answers are incorrect because one of them uses parentheses for the interior lists and the other uses curly braces (`{}`) for the interior lists.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/declare_2d_lists.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/declare_2d_lists.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT identify two ways of declaring 2D lists"
+  }
  }
 ]

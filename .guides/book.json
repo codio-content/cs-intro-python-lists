@@ -287,6 +287,55 @@
      ]
     },
     {
+     "title": "2D Lists",
+     "id": "975c792a-4b26-a0cb-f223-4bd0e6b32ef2",
+     "type": "section",
+     "children": [
+      {
+       "id": "d5c1d50a-85ff-07c3-f832-8924ca2ad3d5",
+       "title": "Learning Objectives - 2D Lists",
+       "pageId": "d4fb2fed-dbc6-c325-7484-6f98c8e734ba",
+       "type": "page"
+      },
+      {
+       "id": "03ce05e5-01f7-542b-ab0f-8ba0fbd1b379",
+       "title": "Declaring 2D Lists",
+       "pageId": "e487c1c9-f22a-f2d8-d987-d01d402adafb",
+       "type": "page"
+      },
+      {
+       "id": "add47fc2-ab35-4c56-da7a-163b20cd68b6",
+       "title": "Adding Elements to 2D Lists",
+       "pageId": "d09a9c65-77af-33b4-5448-6eae2285d681",
+       "type": "page"
+      },
+      {
+       "id": "b2b42d78-4766-2c90-54c1-57aff131cb78",
+       "title": "Accessing Elements in 2D Lists",
+       "pageId": "562cfbda-648f-d2b3-3dac-b6ac10d9af71",
+       "type": "page"
+      },
+      {
+       "id": "01891bf5-ff88-78d7-c454-25e773babf7e",
+       "title": "Iterating Over 2D  Lists",
+       "pageId": "979d5bac-1e1f-81c8-a821-917d1bd5e57b",
+       "type": "page"
+      },
+      {
+       "id": "d24b33ea-04cf-05d1-41cf-edf78f3720af",
+       "title": "Printing 2D Lists",
+       "pageId": "d77df8fb-6b3f-7553-046d-022d2f089de7",
+       "type": "page"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment - 2D Lists",
+     "id": "9ebef69c-1182-0399-6716-8134a3d6f9ed",
+     "type": "section",
+     "children": []
+    },
+    {
      "title": "Lab - Lists",
      "id": "29c9cd45-9c90-6ff4-3707-3d3cef443a6f",
      "type": "section",
