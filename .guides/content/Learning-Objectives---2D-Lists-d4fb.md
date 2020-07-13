@@ -11,5 +11,5 @@
 Students are familiar with lists and their indexes. They are also comfortable with nested loops.
 
 ## Limitations
-None.
+This section does not go over each of the individual topics for regular lists (methods, operators, etc.). There is a page that brings to light how manipulating 2D lists require some extra thought, but it is not a comprehensive list of all of the use cases. 
 |||

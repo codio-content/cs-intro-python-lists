@@ -748,24 +748,35 @@
    "learningObjectives": ""
   },
   {
-   "id": "d09a9c65-77af-33b4-5448-6eae2285d681",
-   "title": "Adding Elements to 2D Lists",
-   "files": [],
+   "id": "562cfbda-648f-d2b3-3dac-b6ac10d9af71",
+   "title": "Accessing Elements in 2D Lists",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/lists/accessing_elements_2d_lists.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Adding-Elements-to-2D-Lists-d09a.md",
+   "content-file": ".guides/content/Accessing-Elements-in-2D-Lists-562c.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
   },
   {
-   "id": "562cfbda-648f-d2b3-3dac-b6ac10d9af71",
-   "title": "Accessing Elements in 2D Lists",
+   "id": "d09a9c65-77af-33b4-5448-6eae2285d681",
+   "title": "Adding Elements to 2D Lists",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Accessing-Elements-in-2D-Lists-562c.md",
+   "content-file": ".guides/content/Adding-Elements-to-2D-Lists-d09a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

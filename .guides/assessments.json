@@ -9693,5 +9693,53 @@
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT identify two ways of declaring 2D lists"
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-224390132",
+  "source": {
+   "name": "accessing elements in 2d lists reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nUse the table below to create a 2D list, and print out the number of nominations for the movie \"Titanic\".\n\n| Movie | Academy Awards Won | Nominations |\n|:-----:|:------------------:|:-----------:|\n| The Lord of the Rings: The Return of the King | 11 | 11 |\n| Titanic | 11 | 14 |\n| Ben-Hur | 11 | 12 |\n\nDrag the correct blocks into the box below. **Note:** not all of the code blocks will be used.",
+   "initial": "movies = [\n           [\"The Lord of the Rings: The Return of the King\", 11, 11],\n           [\"Titanic\", 11, 14],\n           [\"Ben-Hur\", 11, 12]\n]\nprint(movies[1][2])\nprint(movies[2][3])  #distractor\n(\"The Lord of the Rings: The Return of the King\", 11, 11),  #distractor\n{\"Titanic\", 11, 14},  #distractor\n(\"Ben-Hur\", 11, 12)  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The solution is:\n\n```python\nmovies = [\n           [\"The Lord of the Rings: The Return of the King\", 11, 11],\n           [\"Titanic\", 11, 14],\n           [\"Ben-Hur\", 11, 12]\n]\nprint(movies[1][2])\n```\n\nThe following code blocks are incorrect:\n* `print(movies[2][3])` - 2D lists start counting with 0\n* `(\"The Lord of the Rings: The Return of the King\", 11, 11),` - 2D lists requires the use of square brackets not parentheses\n* `{\"Titanic\", 11, 14},` - 2D lists require the use of square brackets not curly braces\n* `(\"Ben-Hur\", 11, 12)` - 2D lists requires the use of square brackets not parentheses",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/accessing_elements_2d_lists.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/accessing_elements_2d_lists.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT access  an element in a 2D list"
+  }
  }
 ]
