@@ -819,7 +819,18 @@
   {
    "id": "d77df8fb-6b3f-7553-046d-022d2f089de7",
    "title": "Printing 2D Lists",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/lists/printing_2d_list.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Printing-2D-Lists-d77d.md",

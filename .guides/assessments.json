@@ -9858,5 +9858,69 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT to iterate over a 2D list with a nested loop"
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3273804598",
+  "source": {
+   "name": "printing 2d lists reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nUse the drop down menus for each question to fill in the blank.",
+   "text": "Using a <<<single print statement>>> will print a 2D list on one line.\nUsing a <<<single for loop>>> will print each inner list of a 2D list on its own line.\nUsing a <<<nested loop>>> allows you to print each element of the inner lists without square brackets or commas.",
+   "guidance": "Here are the correct answers:\n\n* Using a **single print statement** will print a 2D list on one line.\n* Using a **single for loop** will print each inner list of a 2D list on its own line.\n* Using a **nested loop** allows you to print each element of the inner lists without square brackets or commas.\n",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/printing_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/printing_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify three different ways to print a 2D list",
+   "tokens": {
+    "blank": [
+     "single print statement",
+     "single for loop",
+     "nested loop"
+    ],
+    "text": [
+     "Using a ",
+     0,
+     " will print a 2D list on one line.\nUsing a ",
+     0,
+     " will print each inner list of a 2D list on its own line.\nUsing a ",
+     0,
+     " allows you to print each element of the inner lists without square brackets or commas."
+    ],
+    "regexPositions": []
+   }
+  }
  }
 ]
