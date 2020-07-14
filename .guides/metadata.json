@@ -796,7 +796,18 @@
   {
    "id": "979d5bac-1e1f-81c8-a821-917d1bd5e57b",
    "title": "Iterating Over 2D  Lists",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/lists/iterating_2d_list.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Iterating-Over-2D--Lists-979d.md",
