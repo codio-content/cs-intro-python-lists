@@ -9789,5 +9789,74 @@
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT to an element to a 2D list"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1034788956",
+  "source": {
+   "name": "iterating over 2d lists reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhy is it important to use a nested loop to iterate over all of the elements in a 2D list?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "71c81f66-5ac1-1f9a-b94a-55e82c82dafd",
+     "correct": false,
+     "answer": "It is not important. A traditional loop is just as good as a nested loop."
+    },
+    {
+     "_id": "2403adaa-a9eb-5ce5-ba35-4f6bd61611e7",
+     "correct": false,
+     "answer": "Using a single loop on a 2D list will cause an error."
+    },
+    {
+     "_id": "aef5c98e-3c93-7a92-319d-0bfa7195a241",
+     "correct": true,
+     "answer": "A nested loop is required because the first loop iterates over the inner lists and the second loop iterates over the elements in each inner loop."
+    },
+    {
+     "_id": "fe044a2e-4e89-8bb1-4339-ad862019d647",
+     "correct": false,
+     "answer": "The loops do not need to be nested. Two consecutive for loops do the same job as the nested loop."
+    }
+   ],
+   "guidance": "Here is the correct answer:\n\n```\nA nested loop is required because the first loop iterates over the inner lists and the second loop iterates over the elements in each inner loop.\n```\n\n* Using only one loop will give the user access to the inner lists of a 2D lists, but it will not give you access to the elements in the inner lists.\n* Python will not throw an error if a non-nested for loop is used with a 2D list.\n* Consecutive for loops do not provide the same functionality as a nested loop. You will not be able to access the inner list and its elements unless a nested loop is used.\n",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/iterating_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/iterating_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT to iterate over a 2D list with a nested loop"
+  }
  }
 ]
