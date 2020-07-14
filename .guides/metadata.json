@@ -773,7 +773,18 @@
   {
    "id": "d09a9c65-77af-33b4-5448-6eae2285d681",
    "title": "Adding Elements to 2D Lists",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/lists/add_element_2d_list.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Adding-Elements-to-2D-Lists-d09a.md",
