@@ -865,7 +865,13 @@
   {
    "id": "d73f2be8-b90c-a941-0c59-7f4b118b6083",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-d73f.md",
@@ -877,7 +883,13 @@
   {
    "id": "cb46ad44-6856-ff59-b821-531a0756a6a5",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-cb46.md",

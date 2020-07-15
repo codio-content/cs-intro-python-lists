@@ -9998,7 +9998,7 @@
   "source": {
    "name": "formative assessment 1 2d lists",
    "showName": false,
-   "instructions": "## Formative Assessment\n\nAssume the following code:\n\n```python\ncolors = [\n           [\"orange\", \"purple\", \"green\"],\n           [\"blue\", \"white\", \"brown\"],\n           [\"black\", \"red\", \"yellow\"],\n         ]\n```\n\nWhich answer will print `red`?",
+   "instructions": "## 2D Lists\n\nAssume the following code:\n\n```python\ncolors = [\n           [\"orange\", \"purple\", \"green\"],\n           [\"blue\", \"white\", \"brown\"],\n           [\"black\", \"red\", \"yellow\"],\n         ]\n```\n\nWhich answer will print `red`?",
    "multipleResponse": false,
    "answers": [
     {
@@ -10067,7 +10067,7 @@
   "source": {
    "name": "formative assessment 2 2d lists",
    "showName": true,
-   "instructions": "Assume the following code:\n\n```python\ncolors = [\n           [\"orange\", \"purple\", \"green\"],\n           [\"blue\", \"white\", \"brown\"],\n           [\"black\", \"red\", \"yellow\"],\n         ]\n```\nDrag the code blocks into the box below such that your program iterates over the 2D list and prints all of the elements. **Hint:** not all of the code blocks will be used.",
+   "instructions": "## 2D Lists\n\nAssume the following code:\n\n```python\ncolors = [\n           [\"orange\", \"purple\", \"green\"],\n           [\"blue\", \"white\", \"brown\"],\n           [\"black\", \"red\", \"yellow\"],\n         ]\n```\nDrag the code blocks into the box below such that your program iterates over the 2D list and prints all of the elements. **Hint:** not all of the code blocks will be used.",
    "initial": "for row in colors:\n  for color in row:\n    print(color)\nprint(color[row][column]) #distractor\nfor row in range(len(colors)): #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
