@@ -9922,5 +9922,74 @@
     "regexPositions": []
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4263263146",
+  "source": {
+   "name": "manipulating 2d lists reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nAssume the following code:\n\n```python\ncities = [\n           [\"Tokyo\", \"Paris\", \"Algiers\"],\n           [\"New York\", \"Mexico City\", \"Lima\"],\n           [\"Bangalore\", \"Moscow\", \"Nairobi\"]\n         ]\n```\n\nWhat is the difference between the two code snippets:\n\n```python\ncities.reverse()\nprint(cities)\n```\nand\n```python\nfor row in cities:\n    row.reverse()\n    print(row)\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "37458fb6-67c6-a529-7d81-1e37dbfcce32",
+     "correct": true,
+     "answer": "The first code snippet reverses the order of the lists of cities, while the second code snippet reverses the order of cities within each list."
+    },
+    {
+     "_id": "8f2014a6-7a07-3079-f6f5-3d5aa79ea429",
+     "correct": false,
+     "answer": "Nothing, the two code snippets do the same thing."
+    },
+    {
+     "_id": "8fb0adc8-42da-6861-f19e-2cfa004e72b8",
+     "correct": false,
+     "answer": "The first code snippet reverses the order of cities within each list, while the second code snippet revers the order of the list of cities."
+    },
+    {
+     "_id": "8296679f-ec85-af77-e196-040370ef71c8",
+     "correct": false,
+     "answer": "The first code snippet sorts the lists of cities, while the second code snippet reverses the lists of cities."
+    }
+   ],
+   "guidance": "The correct answer is:\n\n**The first code snippet reverses the order of the lists of cities, while the second code snippet reverses the order of cities within each list.**\n\n* The second choice is not correct because the code snippet do not perform identical tasks\n* The third choice is not correct because it links the code snippet to the wrong action\n* The fourth choice is not correct because the neither code snippet will sort the 2D list",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/manipulate_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/manipulate_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT manipulate 2D lists with a list method"
+  }
  }
 ]

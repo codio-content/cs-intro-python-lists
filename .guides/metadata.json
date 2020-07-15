@@ -840,6 +840,29 @@
    "learningObjectives": ""
   },
   {
+   "id": "54668aa4-c3d3-aa1e-cec3-ae96ba9b3d17",
+   "title": "Manipulating 2D Lists",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/lists/manipulate_2d_list.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Manipulating-2D-Lists-5466.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "28a06cd9-a536-8aba-92cb-36c545ec8be7",
    "title": "Lab 1",
    "files": [
