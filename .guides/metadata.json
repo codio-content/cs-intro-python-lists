@@ -863,6 +863,30 @@
    "learningObjectives": ""
   },
   {
+   "id": "d73f2be8-b90c-a941-0c59-7f4b118b6083",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-d73f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "cb46ad44-6856-ff59-b821-531a0756a6a5",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-cb46.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "28a06cd9-a536-8aba-92cb-36c545ec8be7",
    "title": "Lab 1",
    "files": [

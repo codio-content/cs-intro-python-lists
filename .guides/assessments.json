@@ -9991,5 +9991,122 @@
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT manipulate 2D lists with a list method"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1328134561",
+  "source": {
+   "name": "formative assessment 1 2d lists",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume the following code:\n\n```python\ncolors = [\n           [\"orange\", \"purple\", \"green\"],\n           [\"blue\", \"white\", \"brown\"],\n           [\"black\", \"red\", \"yellow\"],\n         ]\n```\n\nWhich answer will print `red`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "4f4cc108-10bc-0747-14aa-22445db5ea7a",
+     "correct": false,
+     "answer": "`print(colors[1][2])`"
+    },
+    {
+     "_id": "9ec1366e-e231-2cb1-ad40-e30470a404de",
+     "correct": false,
+     "answer": "`print(colors[3][2])`"
+    },
+    {
+     "_id": "a49638ad-e784-7488-d10d-0049875dd6a6",
+     "correct": false,
+     "answer": "`print(colors{2}{1})`"
+    },
+    {
+     "_id": "84b5fccb-1f17-cf15-b97f-5a75f11e9762",
+     "correct": true,
+     "answer": "`print(colors[2][1])`"
+    }
+   ],
+   "guidance": "The correct answer is:\n\n`print(colors[2][1])`\n* `print(colors[1][2])` is not correct because this would return the color `brown`\n* `print(colors[3][2])` is not correct because counting for lists begins with 0, not 1\n* `print(colors{2}{1})` is not correct because square brackets are used with the indices",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/manipulate_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/manipulate_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT identify an element in a 2D list by its indices"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2288618154",
+  "source": {
+   "name": "formative assessment 2 2d lists",
+   "showName": true,
+   "instructions": "Assume the following code:\n\n```python\ncolors = [\n           [\"orange\", \"purple\", \"green\"],\n           [\"blue\", \"white\", \"brown\"],\n           [\"black\", \"red\", \"yellow\"],\n         ]\n```\nDrag the code blocks into the box below such that your program iterates over the 2D list and prints all of the elements. **Hint:** not all of the code blocks will be used.",
+   "initial": "for row in colors:\n  for color in row:\n    print(color)\nprint(color[row][column]) #distractor\nfor row in range(len(colors)): #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The solution is:\n\n```python\nfor row in colors:\n  for color in row:\n    print(color)\n```\n\nThe code blocks `for row in range(len(colors)):` and `print(color[row][column])` are not correct because they rely on indices to iterate through the 2D list. Doing that looks like this:\n\n```python\nfor row in range(len(color)):\n  for column in range(len(row)):\n    print(colors[row][column])\n```\n\nHowever, `for column in range(len(row)):` is not an option. ",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/manipulate_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/manipulate_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT iterate over a 2D list"
+  }
  }
 ]
