@@ -1106,7 +1106,7 @@
    "learningObjectives": ""
   },
   {
-   "id": "584e7c59-f146-339e-70a4-214ed808ce3e",
+   "id": "0bc31d56-8c6e-23bc-c32a-78fc5be59d94",
    "title": "Exercise 5",
    "files": [
     {
@@ -1114,7 +1114,7 @@
      "action": "close"
     },
     {
-     "path": "code/lists/exercise5.py",
+     "path": "code/lists/2d_exercise.py",
      "panel": 0,
      "action": "open"
     }
@@ -1122,7 +1122,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Exercise-5-584e.md",
+   "content-file": ".guides/content/Exercise-5-0bc3.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

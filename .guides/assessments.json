@@ -10108,5 +10108,119 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT iterate over a 2D list"
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2944594412",
+  "source": {
+   "name": "2d list coding exercise",
+   "showName": false,
+   "instructions": "## Title\n\nSubmit your code when ready.",
+   "command": "python3 .guides/secure/lists-2d-list.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Here is one possible solution:\n\n```python\n# ******************************************\n# Do not alter the code in the section below\n# ******************************************\nimport sys\nnumber = int(sys.argv[1])\ndata = [[0 for i in range(number)] for j in range(number)]\n\n# *********************\n# Write your code below\n# *********************\n\nfor row in range(len(data)):\n  for column in range(len(data[row])):\n    if row == column:\n      data[row][column] = 1\n    print(f\"{data[row][column]} \", end=\"\")\n  print()\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/lists/2d_exercise.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/2d_exercise.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3411556562",
+  "source": {
+   "name": "2d list coding exercise",
+   "showName": false,
+   "instructions": "**Do not** edit the code in the top section of the IDE. This will cause the auto-grader to fail.",
+   "command": "python3 code/lists/2d_exercise.py",
+   "preExecuteCommand": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 20,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "5",
+     "input": "",
+     "output": "1 0 0 0 0\n0 1 0 0 0\n0 0 1 0 0\n0 0 0 1 0\n0 0 0 0 1",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "2",
+     "input": "",
+     "output": "1 0\n0 1",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "6",
+     "input": "",
+     "output": "1 0 0 0 0 0\n0 1 0 0 0 0\n0 0 1 0 0 0\n0 0 0 1 0 0\n0 0 0 0 1 0\n0 0 0 0 0 1",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "LIsts"
+     }
+    ],
+    "files": [
+     "code/lists/2d_exercise.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/2d_exercise.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT iterate over a 2D list and modify specific elements"
+  }
  }
 ]
