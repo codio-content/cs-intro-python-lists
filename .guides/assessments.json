@@ -9624,5 +9624,603 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT determine how many times a for loop will run"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1967016213",
+  "source": {
+   "name": "declaring 2d lists reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nSelect all examples of declaring a 2D list. **Note:** there is more than one example.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "8033e5d3-e45c-1c4a-a853-3f45ffd0772d",
+     "correct": false,
+     "answer": "```python\nmy_2d_list = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]\n```"
+    },
+    {
+     "_id": "3f39a1f5-6708-396d-6950-781924f96e10",
+     "correct": true,
+     "answer": "```python\nmy_2d_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n```"
+    },
+    {
+     "_id": "c214e276-4d65-c071-c0bb-cda0730b70cc",
+     "correct": false,
+     "answer": "```python\nmy_2d_list = [{1, 2, 3}, {4, 5, 6}, {7, 8, 9}]\n```"
+    },
+    {
+     "_id": "0f97fa81-072e-b716-5b92-6016128aee56",
+     "correct": true,
+     "answer": "```python\nmy_2d_list = [\n               [1, 2, 3],\n               [4, 5, 6],\n               [7, 8, 9]\n             ]\n```"
+    }
+   ],
+   "guidance": "The correct answers are:\n```python\nmy_2d_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n```\nand\n```python\nmy_2d_list = [\n               [1, 2, 3],\n               [4, 5, 6],\n               [7, 8, 9]\n             ]\n```\n2D lists require that both the outer and inner lists use square brackets (`[]`). Two of the answers are incorrect because one of them uses parentheses for the interior lists and the other uses curly braces (`{}`) for the interior lists.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/declare_2d_lists.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/declare_2d_lists.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT identify two ways of declaring 2D lists"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-224390132",
+  "source": {
+   "name": "accessing elements in 2d lists reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nUse the table below to create a 2D list, and print out the number of nominations for the movie \"Titanic\".\n\n| Movie | Academy Awards Won | Nominations |\n|:-----:|:------------------:|:-----------:|\n| The Lord of the Rings: The Return of the King | 11 | 11 |\n| Titanic | 11 | 14 |\n| Ben-Hur | 11 | 12 |\n\nDrag the correct blocks into the box below. **Note:** not all of the code blocks will be used.",
+   "initial": "movies = [\n           [\"The Lord of the Rings: The Return of the King\", 11, 11],\n           [\"Titanic\", 11, 14],\n           [\"Ben-Hur\", 11, 12]\n]\nprint(movies[1][2])\nprint(movies[2][3])  #distractor\n(\"The Lord of the Rings: The Return of the King\", 11, 11),  #distractor\n{\"Titanic\", 11, 14},  #distractor\n(\"Ben-Hur\", 11, 12)  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The solution is:\n\n```python\nmovies = [\n           [\"The Lord of the Rings: The Return of the King\", 11, 11],\n           [\"Titanic\", 11, 14],\n           [\"Ben-Hur\", 11, 12]\n]\nprint(movies[1][2])\n```\n\nThe following code blocks are incorrect:\n* `print(movies[2][3])` - 2D lists start counting with 0\n* `(\"The Lord of the Rings: The Return of the King\", 11, 11),` - 2D lists requires the use of square brackets not parentheses\n* `{\"Titanic\", 11, 14},` - 2D lists require the use of square brackets not curly braces\n* `(\"Ben-Hur\", 11, 12)` - 2D lists requires the use of square brackets not parentheses",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/accessing_elements_2d_lists.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/accessing_elements_2d_lists.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT access  an element in a 2D list"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-788207901",
+  "source": {
+   "name": "adding element 2d list reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nCreate a 2D list of authors. The first element should be a list of American authors, the second a list of French authors, and the third a list of Russian authors. Drag the code blocks into the box below. The code should produce the following output:\n\n```python\n[[\"Whitman\", \"Twain\", \"Poe\"], [\"Camus\", \"Baudelaire\", \"Hugo\"], [\"Dostoyevsky\", \"Tolstoy\", \"Solzhenitsyn\"]]\n```",
+   "initial": "authors = [[\"Whitman\", \"Twain\", \"Poe\"], [\"Camus\", \"Baudelaire\", \"Hugo\"]]\nauthors.append([\"Dostoyevsky\", \"Tolstoy\", \"Solzhenitsyn\"])\nprint(authors)\nauthors.append([[\"Dostoyevsky\", \"Tolstoy\", \"Solzhenitsyn\"]]) #distractor\nauthors = authors + [\"Dostoyevsky\", \"Tolstoy\", \"Solzhenitsyn\"] #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Here is the correct solution:\n\n```python\nauthors = [[\"Whitman\", \"Twain\", \"Poe\"], [\"Camus\", \"Baudelaire\", \"Hugo\"]]\nauthors.append([\"Dostoyevsky\", \"Tolstoy\", \"Solzhenitsyn\"])\nprint(authors)\n```\n\n* `authors.append([[\"Dostoyevsky\", \"Tolstoy\", \"Solzhenitsyn\"]])` - Is not correct because the Russian authors would be added as a 2D list. The problem states that each element should be a traditional list of authors.\n* `authors = authors + [\"Dostoyevsky\", \"Tolstoy\", \"Solzhenitsyn\"]` - Is not correct because the Russian authors will not be added as a list. Instead, each author would be an individual element.",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/add_element_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/add_element_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT to an element to a 2D list"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1034788956",
+  "source": {
+   "name": "iterating over 2d lists reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhy is it important to use a nested loop to iterate over all of the elements in a 2D list?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "71c81f66-5ac1-1f9a-b94a-55e82c82dafd",
+     "correct": false,
+     "answer": "It is not important. A traditional loop is just as good as a nested loop."
+    },
+    {
+     "_id": "2403adaa-a9eb-5ce5-ba35-4f6bd61611e7",
+     "correct": false,
+     "answer": "Using a single loop on a 2D list will cause an error."
+    },
+    {
+     "_id": "aef5c98e-3c93-7a92-319d-0bfa7195a241",
+     "correct": true,
+     "answer": "A nested loop is required because the first loop iterates over the inner lists and the second loop iterates over the elements in each inner loop."
+    },
+    {
+     "_id": "fe044a2e-4e89-8bb1-4339-ad862019d647",
+     "correct": false,
+     "answer": "The loops do not need to be nested. Two consecutive for loops do the same job as the nested loop."
+    }
+   ],
+   "guidance": "Here is the correct answer:\n\n```\nA nested loop is required because the first loop iterates over the inner lists and the second loop iterates over the elements in each inner loop.\n```\n\n* Using only one loop will give the user access to the inner lists of a 2D lists, but it will not give you access to the elements in the inner lists.\n* Python will not throw an error if a non-nested for loop is used with a 2D list.\n* Consecutive for loops do not provide the same functionality as a nested loop. You will not be able to access the inner list and its elements unless a nested loop is used.\n",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/iterating_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/iterating_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT to iterate over a 2D list with a nested loop"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3273804598",
+  "source": {
+   "name": "printing 2d lists reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nUse the drop down menus for each question to fill in the blank.",
+   "text": "Using a <<<single print statement>>> will print a 2D list on one line.\nUsing a <<<single for loop>>> will print each inner list of a 2D list on its own line.\nUsing a <<<nested loop>>> allows you to print each element of the inner lists without square brackets or commas.",
+   "guidance": "Here are the correct answers:\n\n* Using a **single print statement** will print a 2D list on one line.\n* Using a **single for loop** will print each inner list of a 2D list on its own line.\n* Using a **nested loop** allows you to print each element of the inner lists without square brackets or commas.\n",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/printing_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/printing_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify three different ways to print a 2D list",
+   "tokens": {
+    "blank": [
+     "single print statement",
+     "single for loop",
+     "nested loop"
+    ],
+    "text": [
+     "Using a ",
+     0,
+     " will print a 2D list on one line.\nUsing a ",
+     0,
+     " will print each inner list of a 2D list on its own line.\nUsing a ",
+     0,
+     " allows you to print each element of the inner lists without square brackets or commas."
+    ],
+    "regexPositions": []
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4263263146",
+  "source": {
+   "name": "manipulating 2d lists reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nAssume the following code:\n\n```python\ncities = [\n           [\"Tokyo\", \"Paris\", \"Algiers\"],\n           [\"New York\", \"Mexico City\", \"Lima\"],\n           [\"Bangalore\", \"Moscow\", \"Nairobi\"]\n         ]\n```\n\nWhat is the difference between the two code snippets:\n\n```python\ncities.reverse()\nprint(cities)\n```\nand\n```python\nfor row in cities:\n    row.reverse()\n    print(row)\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "37458fb6-67c6-a529-7d81-1e37dbfcce32",
+     "correct": true,
+     "answer": "The first code snippet reverses the order of the lists of cities, while the second code snippet reverses the order of cities within each list."
+    },
+    {
+     "_id": "8f2014a6-7a07-3079-f6f5-3d5aa79ea429",
+     "correct": false,
+     "answer": "Nothing, the two code snippets do the same thing."
+    },
+    {
+     "_id": "8fb0adc8-42da-6861-f19e-2cfa004e72b8",
+     "correct": false,
+     "answer": "The first code snippet reverses the order of cities within each list, while the second code snippet revers the order of the list of cities."
+    },
+    {
+     "_id": "8296679f-ec85-af77-e196-040370ef71c8",
+     "correct": false,
+     "answer": "The first code snippet sorts the lists of cities, while the second code snippet reverses the lists of cities."
+    }
+   ],
+   "guidance": "The correct answer is:\n\n**The first code snippet reverses the order of the lists of cities, while the second code snippet reverses the order of cities within each list.**\n\n* The second choice is not correct because the code snippet do not perform identical tasks\n* The third choice is not correct because it links the code snippet to the wrong action\n* The fourth choice is not correct because the neither code snippet will sort the 2D list",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/manipulate_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/manipulate_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT manipulate 2D lists with a list method"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1328134561",
+  "source": {
+   "name": "formative assessment 1 2d lists",
+   "showName": false,
+   "instructions": "## 2D Lists\n\nAssume the following code:\n\n```python\ncolors = [\n           [\"orange\", \"purple\", \"green\"],\n           [\"blue\", \"white\", \"brown\"],\n           [\"black\", \"red\", \"yellow\"],\n         ]\n```\n\nWhich answer will print `red`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "4f4cc108-10bc-0747-14aa-22445db5ea7a",
+     "correct": false,
+     "answer": "`print(colors[1][2])`"
+    },
+    {
+     "_id": "9ec1366e-e231-2cb1-ad40-e30470a404de",
+     "correct": false,
+     "answer": "`print(colors[3][2])`"
+    },
+    {
+     "_id": "a49638ad-e784-7488-d10d-0049875dd6a6",
+     "correct": false,
+     "answer": "`print(colors{2}{1})`"
+    },
+    {
+     "_id": "84b5fccb-1f17-cf15-b97f-5a75f11e9762",
+     "correct": true,
+     "answer": "`print(colors[2][1])`"
+    }
+   ],
+   "guidance": "The correct answer is:\n\n`print(colors[2][1])`\n* `print(colors[1][2])` is not correct because this would return the color `brown`\n* `print(colors[3][2])` is not correct because counting for lists begins with 0, not 1\n* `print(colors{2}{1})` is not correct because square brackets are used with the indices",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/manipulate_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/manipulate_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "1",
+   "learningObjectives": "SWBAT identify an element in a 2D list by its indices"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2288618154",
+  "source": {
+   "name": "formative assessment 2 2d lists",
+   "showName": true,
+   "instructions": "## 2D Lists\n\nAssume the following code:\n\n```python\ncolors = [\n           [\"orange\", \"purple\", \"green\"],\n           [\"blue\", \"white\", \"brown\"],\n           [\"black\", \"red\", \"yellow\"],\n         ]\n```\nDrag the code blocks into the box below such that your program iterates over the 2D list and prints all of the elements. **Hint:** not all of the code blocks will be used.",
+   "initial": "for row in colors:\n  for color in row:\n    print(color)\nprint(color[row][column]) #distractor\nfor row in range(len(colors)): #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The solution is:\n\n```python\nfor row in colors:\n  for color in row:\n    print(color)\n```\n\nThe code blocks `for row in range(len(colors)):` and `print(color[row][column])` are not correct because they rely on indices to iterate through the 2D list. Doing that looks like this:\n\n```python\nfor row in range(len(color)):\n  for column in range(len(row)):\n    print(colors[row][column])\n```\n\nHowever, `for column in range(len(row)):` is not an option. ",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/manipulate_2d_list.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/manipulate_2d_list.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT iterate over a 2D list"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2944594412",
+  "source": {
+   "name": "2d list coding exercise",
+   "showName": false,
+   "instructions": "## Title\n\nSubmit your code when ready.",
+   "command": "python3 .guides/secure/lists-2d-list.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Here is one possible solution:\n\n```python\n# ******************************************\n# Do not alter the code in the section below\n# ******************************************\nimport sys\nnumber = int(sys.argv[1])\ndata = [[0 for i in range(number)] for j in range(number)]\n\n# *********************\n# Write your code below\n# *********************\n\nfor row in range(len(data)):\n  for column in range(len(data[row])):\n    if row == column:\n      data[row][column] = 1\n    print(f\"{data[row][column]} \", end=\"\")\n  print()\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/lists/2d_exercise.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/2d_exercise.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3411556562",
+  "source": {
+   "name": "2d list coding exercise",
+   "showName": false,
+   "instructions": "**Do not** edit the code in the top section of the IDE. This will cause the auto-grader to fail.",
+   "command": "python3 code/lists/2d_exercise.py",
+   "preExecuteCommand": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 20,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "5",
+     "input": "",
+     "output": "1 0 0 0 0\n0 1 0 0 0\n0 0 1 0 0\n0 0 0 1 0\n0 0 0 0 1",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "2",
+     "input": "",
+     "output": "1 0\n0 1",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "6",
+     "input": "",
+     "output": "1 0 0 0 0 0\n0 1 0 0 0 0\n0 0 1 0 0 0\n0 0 0 1 0 0\n0 0 0 0 1 0\n0 0 0 0 0 1",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "2D lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "LIsts"
+     }
+    ],
+    "files": [
+     "code/lists/2d_exercise.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/2d_exercise.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT iterate over a 2D list and modify specific elements"
+  }
  }
 ]

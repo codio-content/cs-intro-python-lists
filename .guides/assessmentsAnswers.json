@@ -1,0 +1,59 @@
+[
+ {
+  "taskId": "multiple-choice-1967016213",
+  "points": 0,
+  "state": {
+   "active": null
+  },
+  "results": []
+ },
+ {
+  "taskId": "test-2944594412",
+  "points": 20,
+  "results": [
+   {
+    "guidance": "Here is one possible solution:\n\n```python\n# ***********************************\n# Do not alter the variable \"numbers\"\n# ***********************************\nnumbers = [\n            [3, 1, 2],\n            [8, 7, 9],\n            [10, 12, 11],\n            [4, 5, 6]\n          ]\n\n# *********************\n# Write your code below\n# *********************\nnumbers.sort()\nnumbers.reverse()\nfor row in numbers:\n  row.sort()\n  row.reverse()\n  for number in row:\n    print(f\"{number} \", end=\"\")\n  print()\n```",
+    "format": null,
+    "output": "Test passed!",
+    "timestamp": 1594917837631,
+    "state": "pass"
+   }
+  ]
+ },
+ {
+  "taskId": "code-output-compare-3411556562",
+  "points": 20,
+  "results": [
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1 0 0 0 0 \\n0 1 0 0 0 \\n0 0 1 0 0 \\n0 0 0 1 0 \\n0 0 0 0 1 \\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1 0 \\n0 1 \\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"1 0 0 0 0 0 \\n0 1 0 0 0 0 \\n0 0 1 0 0 0 \\n0 0 0 1 0 0 \\n0 0 0 0 1 0 \\n0 0 0 0 0 1 \\n\"}]}",
+    "timestamp": 1594924679615,
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1594924621851,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1594924552927,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1594924514974,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 1, \"stderr\": \"Traceback (most recent call last):\\n  File \\\"code/lists/2d_exercise.py\\\", line 5, in <module>\\n    number = int(sys.argv[1])\\nIndexError: list index out of range\\nTraceback (most recent call last):\\n  File \\\".guides/secure/lists-2d-list.py\\\", line 5, in <module>\\n    student_output = subprocess.check_output([\\\"python3\\\", student_file]).rstrip().decode(\\\"utf-8\\\")\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 356, in check_output\\n    **kwargs).stdout\\n  File \\\"/usr/lib/python3.6/subprocess.py\\\", line 438, in run\\n    output=stdout, stderr=stderr)\\nsubprocess.CalledProcessError: Command '['python3', 'code/lists/2d_exercise.py']' returned non-zero exit status 1.\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1594924475822,
+    "state": "fail"
+   }
+  ]
+ }
+]

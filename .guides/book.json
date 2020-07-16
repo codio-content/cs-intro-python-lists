@@ -287,6 +287,74 @@
      ]
     },
     {
+     "title": "2D Lists",
+     "id": "975c792a-4b26-a0cb-f223-4bd0e6b32ef2",
+     "type": "section",
+     "children": [
+      {
+       "title": "Learning Objectives - 2D Lists",
+       "id": "d5c1d50a-85ff-07c3-f832-8924ca2ad3d5",
+       "type": "page",
+       "pageId": "d4fb2fed-dbc6-c325-7484-6f98c8e734ba"
+      },
+      {
+       "title": "Declaring 2D Lists",
+       "id": "03ce05e5-01f7-542b-ab0f-8ba0fbd1b379",
+       "type": "page",
+       "pageId": "e487c1c9-f22a-f2d8-d987-d01d402adafb"
+      },
+      {
+       "title": "Accessing Elements in 2D Lists",
+       "id": "b2b42d78-4766-2c90-54c1-57aff131cb78",
+       "type": "page",
+       "pageId": "562cfbda-648f-d2b3-3dac-b6ac10d9af71"
+      },
+      {
+       "title": "Adding Elements to 2D Lists",
+       "id": "add47fc2-ab35-4c56-da7a-163b20cd68b6",
+       "type": "page",
+       "pageId": "d09a9c65-77af-33b4-5448-6eae2285d681"
+      },
+      {
+       "title": "Iterating Over 2D  Lists",
+       "id": "01891bf5-ff88-78d7-c454-25e773babf7e",
+       "type": "page",
+       "pageId": "979d5bac-1e1f-81c8-a821-917d1bd5e57b"
+      },
+      {
+       "title": "Printing 2D Lists",
+       "id": "d24b33ea-04cf-05d1-41cf-edf78f3720af",
+       "type": "page",
+       "pageId": "d77df8fb-6b3f-7553-046d-022d2f089de7"
+      },
+      {
+       "id": "5644aa48-8ef0-7aa9-d418-c4927180fe77",
+       "title": "Manipulating 2D Lists",
+       "pageId": "54668aa4-c3d3-aa1e-cec3-ae96ba9b3d17",
+       "type": "page"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment - 2D Lists",
+     "id": "9ebef69c-1182-0399-6716-8134a3d6f9ed",
+     "type": "section",
+     "children": [
+      {
+       "id": "e611889f-1e7e-7fd2-d4a6-4bbf1b9cd55a",
+       "title": "Formative Assessment 1",
+       "pageId": "d73f2be8-b90c-a941-0c59-7f4b118b6083",
+       "type": "page"
+      },
+      {
+       "id": "ea215119-7c0b-a189-ded5-9cf49243c64f",
+       "title": "Formative Assessment 2",
+       "pageId": "cb46ad44-6856-ff59-b821-531a0756a6a5",
+       "type": "page"
+      }
+     ]
+    },
+    {
      "title": "Lab - Lists",
      "id": "29c9cd45-9c90-6ff4-3707-3d3cef443a6f",
      "type": "section",
@@ -353,10 +421,10 @@
        "pageId": "15d0c99e-d295-d5fb-8fb5-37f103a106eb"
       },
       {
+       "id": "7f0dd41a-fa55-c25e-7cd1-d6c56166e2b0",
        "title": "Exercise 5",
-       "id": "169c5bf7-c8c9-6050-9189-d741a969e097",
-       "type": "page",
-       "pageId": "584e7c59-f146-339e-70a4-214ed808ce3e"
+       "pageId": "0bc31d56-8c6e-23bc-c32a-78fc5be59d94",
+       "type": "page"
       }
      ]
     }
