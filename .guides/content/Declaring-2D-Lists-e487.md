@@ -26,7 +26,7 @@ print(my_2d_list)
 
 ## Declaring 2D Lists in a Human Readable Way
 
-2D lists are useful for when you want a group of data where each group is itself a group of data. Imagine that you are going to list of the three most populous cities for American, France, China, and India. Declaring the list as described above, would make for a long line of code. While Python will not have trouble understanding this line of code, some humans might. It is a good idea to write your code in a way that is easy for humans to read. This will make debugging your code easier. 
+2D lists are useful for when you want a group of data where each group is itself a group of data. Imagine that you are going to list the three most populous cities for America, France, China, and India. Declaring the list as described above, would make for a long line of code. While Python will not have trouble understanding this line of code, some humans might. It is a good idea to write your code in a way that is easy for humans to read. This will make debugging your code easier. 
 
 ```python
 populous_cities = [

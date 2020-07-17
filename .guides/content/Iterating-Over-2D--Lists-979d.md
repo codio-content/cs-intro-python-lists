@@ -2,7 +2,7 @@
 
 ## Iterating with Indices
 
-Using a traditional for loop to iterate over a 2D list works, but it does not allow access to all of the information stored in the 2D list. Below is a list of the tallest mountains in Asia, North American, and Africa. Assume you want to print its name if the mountain has six or fewer characters. Those mountains would be K2 and Denali.
+Using a traditional for loop to iterate over a 2D list works, but it does not allow access to all of the information stored in the 2D list. Below is a list of the tallest mountains in Asia, North America, and Africa. Assume you want to print its name if the mountain has six or fewer characters. Those mountains would be K2 and Denali.
 
 ```python
 mountains = [
@@ -106,7 +106,7 @@ numbers = [
           ]
 ```
 
-Iterate over the list `numbers` and for every element print `even` if it is an even number or print `odd` if it is an odd number. Write you loop such that no indices are needed.
+Iterate over the list `numbers` and for every element print `even` if it is an even number or print `odd` if it is an odd number. Write your loop such that no indices are needed.
 <details><summary>**Solution**</summary><img src=".guides/images/pythonic_2d_iterate_solution.png" /></details>
 
 
