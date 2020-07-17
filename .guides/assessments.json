@@ -10154,8 +10154,8 @@
    "instructions": "**Do not** edit the code in the top section of the IDE. This will cause the auto-grader to fail.",
    "command": "python3 code/lists/2d_exercise.py",
    "preExecuteCommand": "",
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "Here is one possible solution:\n\n```python\nfor row in range(number):\n  for column in range(number):\n    if row == column:\n      data[row][column] = 1\n    print(f\"{data[row][column]} \", end=\"\")\n  print()\n```\n\nA `0` becomes a `1` when the index for the row is the same as the index for the column. For example `data[0][0]`, `data[1][1]`, etc. It is easier to solve this problem by using a nested loop with indices. Iterate over the inner list. If the two indices are the same, change the element to `1`. If not, leave it be. Print the element without a newline character. After the inner loops finishes running, print a newline character to go to the next row. Repeat this process for all rows in `data`.",
+   "showGuidanceAfterResponse": true,
    "points": 20,
    "oneTimeTest": true,
    "options": {
