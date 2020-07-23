@@ -57,7 +57,7 @@ Write a program that accepts a 2D list of zeros. Print the 2D list in rows and c
 </table>
 
 **Important**
-Do not alter the code in the top section of the IDE as this could negatively affect the auto-grader.
+Do not alter the code in the top section of the IDE as this could negatively affect the auto-grader. See the page on Printing 2D Lists for some help on solving this problem.
 
 {test with 3 rows}(python3 code/lists/2d_exercise.py 3)
 {test with 4 rows}(python3 code/lists/2d_exercise.py 4)
