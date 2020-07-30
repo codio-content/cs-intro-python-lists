@@ -40,6 +40,7 @@ Write a program that accepts a 2D list of zeros. Print the 2D list in rows and c
           [
             [0, 0, 0, 0],
             [0, 0, 0, 0],
+            [0, 0, 0, 0],
             [0, 0, 0, 0]
           ]
         </code>
@@ -57,12 +58,15 @@ Write a program that accepts a 2D list of zeros. Print the 2D list in rows and c
 </table>
 
 **Important**
-Do not alter the code in the top section of the IDE as this could negatively affect the auto-grader. See the page on Printing 2D Lists for some help on solving this problem.
+Do not edit the code in the top section. This code is necessary for the auto-grader to work. Add your code in the section below.
 
-{test with 3 rows}(python3 code/lists/2d_exercise.py 3)
-{test with 4 rows}(python3 code/lists/2d_exercise.py 4)
+**Testing Your Code**
+The `TEST 1` button will test your code with three rows. The `TEST 2` button will test your code with four rows.
 
-<details><summary>**Where is the code visualizer?**</summary>Unfortunately, the code visualizer does not work with the statement `import sys`. Since importing the `sys` module is required for this problem, the code visualizer will not be available for this problem.</details>
+{test 1}(python3 code/lists/2d_exercise.py 3)
+{test 2}(python3 code/lists/2d_exercise.py 4)
+
+<details><summary>**Where is the code visualizer?**</summary>Unfortunately, the code visualizer does not work with the statement `import sys`. Since importing the `sys` module is required for this problem, the code visualizer will not be available.</details>
 
 {Check It!|assessment}(code-output-compare-3411556562)
 

@@ -10,11 +10,14 @@ Write a program that takes a list called `my_list` (it could be a list of any da
 * If `my_list = [65, 111, 2, 81, 65, 32]` then you will print `[65, 111, 2, 81, 65, 32]`
 
 **Important**
-Do not edit the code in the top section. This code is necessary for the auto-grader to work. Add your code in the section below. Clicking the `TEST 1` button will test your code with `my_list = ['hi', 'hello']`. `TEST 2` will test your code with `my_list = [65, 111, 2, 81, 65, 32]`.
+Do not edit the code in the top section. This code is necessary for the auto-grader to work. Add your code in the section below. 
 
-<details><summary>**Where is the code visualizer?**</summary>Unfortunately, the code visualizer does not work with the statement `import sys`. Since importing the `sys` module is required for this problem, the code visualizer will not be available for this problem.</details>
+**Testing Your Code**
+The `TEST 1` button will test your code with `my_list = ['hi', 'hello']`. The `TEST 2` button will test your code with `my_list = [65, 111, 2, 81, 65, 32]`.
 
 {Test 1}(python3 code/lists/exercise2.py hi hello)
 {Test 2}(python3 code/lists/exercise2.py 65 111 2 81 65 32)
+
+<details><summary>**Where is the code visualizer?**</summary>Unfortunately, the code visualizer does not work with the statement `import sys`. Since importing the `sys` module is required for this problem, the code visualizer will not be available.</details>
 
 {Check It!|assessment}(code-output-compare-2183474331)

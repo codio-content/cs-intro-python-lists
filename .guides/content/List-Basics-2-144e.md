@@ -18,7 +18,7 @@ print(my_list[0])
 ## What happens if you:
 * Change the index to 2 (`print(my_list[2]`)?
 * Change the index to 4 (`print(my_list[4]`)?
-* Change the index to 2 (`print(my_list[-1]`)?
+* Change the index to -1 (`print(my_list[-1]`)?
 * Change the index to 1.5 (`print(my_list[1.5]`)?
 
 |||
