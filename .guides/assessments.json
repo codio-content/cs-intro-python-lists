@@ -6083,13 +6083,13 @@
    "name": "reading question lists slice",
    "showName": false,
    "instructions": "## Reading Question\nChoose the correct list and select the correct values for the slice operator so that you will have a list of:\n\n```\n[98, 10, 1]\n```",
-   "initial": "my_list = [32, 98, 10, 1, 77]\nmy_list[1:4]\nmy_list[98, 32, 10, 1, 77] #distractor\nmy_list[32, 98, 10, 77, 1] #distractor\nmy_list[0:3] #distractor\nmy_list[1:3] #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "initial": "my_list = [32, 98, 10, 1, 77]\nmy_list[1:4]\nmy_list = [98, 32, 10, 1, 77]  #distractor\nmy_list = [32, 98, 10, 77, 1]  #distractor\nmy_list[0:3]  #distractor\nmy_list[1:3]  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
-   "guidance": "The first step is to define the list. The slice operator returns consecutive elements in a list. That means you need a list with `98, 10, 1` in that order. So the list should be `my_list = [32, 89, 10, 1, 77]`. Next is to select the proper slice command. The slice operator includes the first number, but does not include the second number. Since we want elements 1, 2, and 3 from `my_list`, the slice command should be `my_list[1:4]`.\n\n```python\nmy_list[32, 98, 10, 1, 77]\nmy_list[1:4]\n```",
+   "guidance": "The first step is to define the list. The slice operator returns consecutive elements in a list. That means you need a list with `98, 10, 1` in that order. So the list should be `my_list = [32, 98, 10, 1, 77]`. Next is to select the proper slice command. The slice operator includes the first number, but does not include the second number. Since we want elements 1, 2, and 3 from `my_list`, the slice command should be `my_list[1:4]`.\n\n```python\nmy_list[32, 98, 10, 1, 77]\nmy_list[1:4]\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
-   "oneTimeTest": false,
+   "oneTimeTest": true,
    "metadata": {
     "tags": [
      {
@@ -6188,10 +6188,10 @@
    "name": "list operators assessment 2",
    "showName": false,
    "instructions": "## List Operators\nDrag the appropriate blocks and place them in the correct order. Your program should do the following things:\n\n* Check to see if the length of `list_1` is an element of `list_2`\n* If yes, print `yes`\n* If no, print `no`\n\n**Hint**, you will not use all of the blocks.",
-   "initial": "if len(list_1) in list_2:\n    print(\"yes)\nelse:\n    print(\"no\")\nelif: #distractor\nif length(list_1) in list_2: #distractor\nif len(list_1) on list_2: #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "",
-   "guidance": "Use `len` to check the length of a list. Use `in` to see if a value is an element of a list. Use `else` since there is only question to answer. Putting this together, you get:\n\n```python\nif len(list_1) in list_2:\n    print(\"yes)\nelse:\n    print(\"no\")\n```",
+   "initial": "if len(list_1) in list_2:\n    print(\"yes\")\nelse:\n    print(\"no\")\nelif:  #distractor\nif length(list_1) in list_2:  #distractor\nif len(list_1) on list_2:  #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "Use `len` to check the length of a list. Use `in` to see if a value is an element of a list. Use `else` since there is only question to answer. Putting this together, you get:\n\n```python\nif len(list_1) in list_2:\n    print(\"yes\")\nelse:\n    print(\"no\")\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -6213,13 +6213,7 @@
     "files": [
      "code/lists/list-slice.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/lists/list-slice.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT use in and len "
@@ -6577,12 +6571,12 @@
   "source": {
    "name": "reading question list sort",
    "showName": false,
-   "instructions": "## Reading Question\nSelect all of the statements that are true about the `sort` method. **Hint**, there are more than one correct answer.",
-   "multipleResponse": true,
+   "instructions": "## Reading Question\nSelect the true statement about the `sort` method. ",
+   "multipleResponse": false,
    "answers": [
     {
      "_id": "cded748f-68ee-e71d-2803-9063cd0d7361",
-     "correct": true,
+     "correct": false,
      "answer": "The `sort` method can sort a list with mixed datatypes (i.e. floats, ints, strings, etc.)"
     },
     {
@@ -6601,7 +6595,7 @@
      "answer": "The `sort` method returns a new list"
     }
    ],
-   "guidance": "The correct answers are:\n\n* The `sort` method can sort a list with mixed datatypes (i.e. floats, ints, strings, etc.)\n* The `sort` method can sort lists in ascending and descending order\n\nThe `sort` method works with lists that have datatypes other than numbers. The `sort` method does not return a new list. It modifies the original list.",
+   "guidance": "The correct answer is:\n\n* The `sort` method can sort lists in ascending and descending order\n\nThe `sort` method works with lists that have datatypes other than numbers. The `sort` method does not return a new list. It modifies the original list. The `sort` method does not work on lists with mixed data types.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -7721,7 +7715,7 @@
    "instructions": "Submit your code when you are ready.",
    "command": "python3 code/lists/exercise1.py",
    "preExecuteCommand": "",
-   "guidance": "The trick to this problem is being able to access the index of the list. The basic format of this is `list[index]`. However, you will need to use the `index` method to find the index of `number`.\n\n```python\nfor number in numbers:\n    if number > 10:\n        numbers[numbers.index(number)] = '*'\n\nprint(numbers)\n```\n\n",
+   "guidance": "Here is one possible solution:\n\n```python\nfor number in numbers:\n    if number > 10:\n        numbers[numbers.index(number)] = '*'\n\nprint(numbers)\n```\n\nThe key to this solution is being able to access the index of the list. The basic format of this is `list[index]`. However, you will need to use the `index` method to find the index of `number`.\n\n",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -7733,6 +7727,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "10 50 60 9",
@@ -7796,7 +7791,7 @@
   "source": {
    "name": "exercise 2 lists",
    "showName": false,
-   "instructions": "Submit your code when ready",
+   "instructions": "Submit your code when ready.",
    "command": "python3 .guides/secure/lists-exercises-2-test.py",
    "preExecuteCommand": "",
    "guidance": "Test the length of the list. If it is greater than 5, use the `*` operator to repeat the list 3 times. Else, print the list once.\n\n\n```python\nif len(my_list) < 5:\n  print(my_list * 3)\nelse:\n  print(my_list)\n```",
@@ -7811,6 +7806,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "'cat' 'dog'",
@@ -7867,7 +7863,7 @@
   "source": {
    "name": "exercise 3 lists",
    "showName": false,
-   "instructions": "**Do not** submit your code to be graded with the variable strings. The auto-grader will declare the variable for you.",
+   "instructions": "Submit your code when ready.",
    "command": "python3 .guides/secure/lists-exercises-3-test.py",
    "preExecuteCommand": "",
    "guidance": "Here are two ways to solve this problem.\n\n### Use `sort`\nTo arrange a list in alphabetical order, use the `sort` method. To remove the first element from the list, you can use the `pop` method, but don't forget to pass 0 as the parameter so you will remove the first element. If you don't pass 0 as a parameter, `pop` will remove the last element. You can also use `print(strings[0])` as well.\n\n```python\nstrings.sort()\nprint(strings.pop(0))\n```\n\n### Use `min`\nThe `min` function will return the \"smallest\" element. When dealing with strings, the \"smallest\" string will the one that comes first alphabetically.\n\n```python\nprint(min(strings))\n```",
@@ -7882,6 +7878,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "cat dog bird zebra apple",
@@ -7946,7 +7943,7 @@
   "source": {
    "name": "exercise 4 lists",
    "showName": false,
-   "instructions": "**Do not** submit your code to be graded with the variable `numbers`. The auto-grader will declare the variable for you.",
+   "instructions": "Submit your code when ready.",
    "command": "python3 .guides/secure/lists-exercises-4-test.py",
    "preExecuteCommand": "",
    "guidance": "First, you need to find what is the last element in the list. There are several ways to do this, but the most concise is `numbers[-1]`. You are going to append a number that is 1 greater than `numbers[-1]` to the list `numbers`. Do this a second time. Since an action is repeated, a loop would work well. Finally, print the newly modified list.\n\n```python\nfor i in range(2):\n  numbers.append(numbers[-1] +1)\n\nprint(numbers)\n```",
@@ -7961,6 +7958,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "3 4 5 6",
@@ -9701,8 +9699,8 @@
    "name": "accessing elements in 2d lists reading question",
    "showName": false,
    "instructions": "## Reading Question\n\nUse the table below to create a 2D list, and print out the number of nominations for the movie \"Titanic\".\n\n| Movie | Academy Awards Won | Nominations |\n|:-----:|:------------------:|:-----------:|\n| The Lord of the Rings: The Return of the King | 11 | 11 |\n| Titanic | 11 | 14 |\n| Ben-Hur | 11 | 12 |\n\nDrag the correct blocks into the box below. **Note:** not all of the code blocks will be used.",
-   "initial": "movies = [\n           [\"The Lord of the Rings: The Return of the King\", 11, 11],\n           [\"Titanic\", 11, 14],\n           [\"Ben-Hur\", 11, 12]\n]\nprint(movies[1][2])\nprint(movies[2][3])  #distractor\n(\"The Lord of the Rings: The Return of the King\", 11, 11),  #distractor\n{\"Titanic\", 11, 14},  #distractor\n(\"Ben-Hur\", 11, 12)  #distractor",
-   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "initial": "movies = [\n           [\"The Lord of the Rings: The Return of the King\", 11, 11],\n           [\"Titanic\", 11, 14],\n           [\"Ben-Hur\", 11, 12]\n]\nprint(movies[1][2])\nprint(movies[2][3])   #distractor\n(\"The Lord of the Rings: The Return of the King\", 11, 11),   #distractor\n{\"Titanic\", 11, 14},   #distractor\n(\"Ben-Hur\", 11, 12)   #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
    "grader": "1",
    "guidance": "The solution is:\n\n```python\nmovies = [\n           [\"The Lord of the Rings: The Return of the King\", 11, 11],\n           [\"Titanic\", 11, 14],\n           [\"Ben-Hur\", 11, 12]\n]\nprint(movies[1][2])\n```\n\nThe following code blocks are incorrect:\n* `print(movies[2][3])` - 2D lists start counting with 0\n* `(\"The Lord of the Rings: The Return of the King\", 11, 11),` - 2D lists requires the use of square brackets not parentheses\n* `{\"Titanic\", 11, 14},` - 2D lists require the use of square brackets not curly braces\n* `(\"Ben-Hur\", 11, 12)` - 2D lists requires the use of square brackets not parentheses",
    "showGuidanceAfterResponse": true,
@@ -10066,7 +10064,7 @@
   "taskId": "parsons-puzzle-2288618154",
   "source": {
    "name": "formative assessment 2 2d lists",
-   "showName": true,
+   "showName": false,
    "instructions": "## 2D Lists\n\nAssume the following code:\n\n```python\ncolors = [\n           [\"orange\", \"purple\", \"green\"],\n           [\"blue\", \"white\", \"brown\"],\n           [\"black\", \"red\", \"yellow\"],\n         ]\n```\nDrag the code blocks into the box below such that your program iterates over the 2D list and prints all of the elements. **Hint:** not all of the code blocks will be used.",
    "initial": "for row in colors:\n  for color in row:\n    print(color)\nprint(color[row][column]) #distractor\nfor row in range(len(colors)): #distractor",
    "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
@@ -10097,13 +10095,7 @@
     "files": [
      "code/lists/manipulate_2d_list.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/lists/manipulate_2d_list.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT iterate over a 2D list"
@@ -10151,7 +10143,7 @@
   "source": {
    "name": "2d list coding exercise",
    "showName": false,
-   "instructions": "**Do not** edit the code in the top section of the IDE. This will cause the auto-grader to fail.",
+   "instructions": "Submit your code when ready.",
    "command": "python3 code/lists/2d_exercise.py",
    "preExecuteCommand": "",
    "guidance": "Here is one possible solution:\n\n```python\nfor row in range(number):\n  for column in range(number):\n    if row == column:\n      data[row][column] = 1\n    print(f\"{data[row][column]} \", end=\"\")\n  print()\n```\n\nA `0` becomes a `1` when the index for the row is the same as the index for the column. For example `data[0][0]`, `data[1][1]`, etc. It is easier to solve this problem by using a nested loop with indices. Iterate over the inner list. If the two indices are the same, change the element to `1`. If not, leave it be. Print the element without a newline character. After the inner loops finishes running, print a newline character to go to the next row. Repeat this process for all rows in `data`.",
@@ -10166,6 +10158,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "5",
@@ -10221,6 +10214,85 @@
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT iterate over a 2D list and modify specific elements"
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-908456580",
+  "source": {
+   "name": "coding exercise 4 lists",
+   "showName": false,
+   "instructions": "Submit your code when ready.",
+   "command": "python3 code/lists/exercise4.py",
+   "preExecuteCommand": "",
+   "guidance": "Here is one possible solution:\n\n```python\nfor i in range(2):\n  new_number = numbers[-1] + 1\n  numbers.append(new_number)\nprint(numbers)\n```\n\nSince two numbers need to be added to the list, the loop will run two times. `numbers[-1]` is the last element in the list. Then it is incremented by 1. Finally it is appended to `numbers`. Once this process has been done twice, `numbers` is printed.",
+   "showGuidanceAfterResponse": true,
+   "points": 20,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": true,
+   "sequence": [
+    {
+     "arguments": "100 101 102",
+     "input": "",
+     "output": "[100, 101, 102, 103, 104]",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "7 8 9 10 11",
+     "input": "",
+     "output": "[7, 8, 9, 10, 11, 12, 13]",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "-2 -1 0 2",
+     "input": "",
+     "output": "[-2, -1, 0, 2, 3, 4]",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Appending a list"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/lists/exercise4.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/exercise4.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT to determine the last element in the list and append new elements to the list"
   }
  }
 ]

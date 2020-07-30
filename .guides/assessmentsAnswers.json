@@ -24,5 +24,17 @@
   "taskId": "code-output-compare-3411556562",
   "points": 0,
   "results": []
+ },
+ {
+  "taskId": "code-output-compare-908456580",
+  "points": 20,
+  "results": [
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"[100, 101, 102, 103, 104]\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"[7, 8, 9, 10, 11, 12, 13]\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"[-2, -1, 0, 2, 3, 4]\\n\"}]}",
+    "timestamp": 1596133760025,
+    "state": "pass"
+   }
+  ]
  }
 ]
