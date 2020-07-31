@@ -7794,7 +7794,7 @@
    "instructions": "Submit your code when ready.",
    "command": "python3 .guides/secure/lists-exercises-2-test.py",
    "preExecuteCommand": "",
-   "guidance": "Test the length of the list. If it is greater than 5, use the `*` operator to repeat the list 3 times. Else, print the list once.\n\n\n```python\nif len(my_list) < 5:\n  print(my_list * 3)\nelse:\n  print(my_list)\n```",
+   "guidance": "Test the length of the list. If it is less than 5, use the `*` operator to repeat the list 3 times. Else, print the list once.\n\n\n```python\nif len(my_list) < 5:\n  print(my_list * 3)\nelse:\n  print(my_list)\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
