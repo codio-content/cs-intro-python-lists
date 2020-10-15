@@ -18,6 +18,9 @@ The `TEST 1` button will test your code with `strings = ['luck', 'cat', 'kid', '
 {test 1}(python3 code/lists/exercise3.py luck cat kid house)
 {test 2}(python3 code/lists/exercise3.py duck dddd mouse kite)
 
-<details><summary>**Where is the code visualizer?**</summary>Unfortunately, the code visualizer does not work with the statement `import sys`. Since importing the `sys` module is required for this problem, the code visualizer will not be available.</details>
+<details>
+  <summary><strong>Where is the code visualizer?</strong></summary>
+  Unfortunately, the code visualizer does not work with the statement <code>import sys</code>. Since importing the <code>sys</code> module is required for this problem, the code visualizer will not be available for this problem.
+</details><br>
 
 {Check It!|assessment}(code-output-compare-4058655817)

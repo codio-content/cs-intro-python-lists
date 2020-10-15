@@ -37,7 +37,26 @@ print("The sum of numbers is ", total)
 print(sum(numbers))
 ```
 
-<details><summary>**Code**</summary><img src=".guides/images/sum-list-code.png"/></details>
+<details>
+  <summary><strong>Code</strong></summary>
+  
+  ```python
+  import random
+  
+  numbers = []
+  total = 0
+  
+  for i in range(20):
+    numbers.append(random.randint(0, 100))
+  
+  for number in numbers:
+    total += number
+  
+  print("The sum of numbers is", total)
+  print(sum(numbers))
+  ```
+  
+</details><br>
 
 {try it}(python3 code/lists/lab-sum.py)
 

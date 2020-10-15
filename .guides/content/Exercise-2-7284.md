@@ -18,6 +18,9 @@ The `TEST 1` button will test your code with `my_list = ['hi', 'hello']`. The `T
 {Test 1}(python3 code/lists/exercise2.py hi hello)
 {Test 2}(python3 code/lists/exercise2.py 65 111 2 81 65 32)
 
-<details><summary>**Where is the code visualizer?**</summary>Unfortunately, the code visualizer does not work with the statement `import sys`. Since importing the `sys` module is required for this problem, the code visualizer will not be available.</details>
+<details>
+  <summary><strong>Where is the code visualizer?</strong></summary>
+  Unfortunately, the code visualizer does not work with the statement <code>import sys</code>. Since importing the <code>sys</code> module is required for this problem, the code visualizer will not be available for this problem.
+</details><br>
 
 {Check It!|assessment}(code-output-compare-2183474331)

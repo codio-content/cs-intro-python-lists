@@ -18,7 +18,15 @@ print(my_2d_list)
 |||challenge
 ## Try this variation:
 * Create a 2D list comprised of empty lists. Print this 2D list.
-<details><summary>**Solution**</summary><img src=".guides/images/empty_2d_list.png" /></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+  ```python
+  my_empty_2d_list = [[], [], []]
+  print(my_empty_2d_list)
+  ```
+  
+</details>
 
 |||
 
@@ -40,7 +48,10 @@ print(populous_cities)
 
 {try it}(python3 code/lists/declare_2d_lists.py 3)
 
-<details><summary>**Printing a 2D list**</summary>The standard `print` statement does not print a 2D list in a human readable way. However, it is possible to print a 2D list in a more readable way. This will be covered on a later page.</details>
+<details>
+  <summary><strong>Printing a 2D list</strong></summary>
+  The standard <code>print</code> statement does not print a 2D list in a human readable way. However, it is possible to print a 2D list in a more readable way. This will be covered on a later page.
+</details>
 
 |||challenge
 ## Try this variation:
@@ -50,7 +61,17 @@ print(populous_cities)
 |:-:|:------------:|
 |Dogs|Labrador Retriever, German Shepherd, Golden Retriever|
 |Cats|Siamese, Persian, Maine Coon|
-<details><summary>**Solution**</summary><img src=".guides/images/human_readable_2d_list.png" /></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+  ```python
+  pets = [
+           ['dogs', 'labrador retriever', 'german shepherd', 'golden retriever'],
+           ['cats', 'siamese', 'persian', 'maine coon']
+         ]
+  print(pets)
+  ```
+</details>
 
 |||
 

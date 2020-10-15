@@ -32,7 +32,10 @@ print(my_list)
 
 {try it}(python3 code/lists/list-append.py 2)
 
-<details><summary>**`append` versus `+`**</summary>There is an important difference between `append` and the concatenation operator (`+`). The `+` operator only combines two lists.The `append` method can add a value of any data type to a list.</details>
+<details>
+  <summary><strong><code>append</code> versus <code>+</code></strong></summary>
+  There is an important difference between <code>append</code> and the concatenation operator (<code>+</code>). The <code>+</code> operator only combines two lists.The <code>append</code> method can add a value of any data type to a list.
+</details>
 
 {Check It!|assessment}(multiple-choice-1778093803)
 

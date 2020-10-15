@@ -10,7 +10,10 @@ import random
 numbers = [[random.randint(1, 101) for columns in range(10)] for rows in range(10)]
 print(numbers)
 ```
-<details><summary>**What is going on with the variable `numbers`?**</summary>The variable `numbers` is declared using something called a list comprehension. A list comprehension is a very concise (some would say difficult to understand) way of creating a list. `numbers` is a 2D list with ten columns and ten rows. Each element is a random integer between 1 and 100. Every time you run the code, the 2D list will be populated with different numbers.</details>
+<details>
+  <summary><strong>What is going on with the variable <code>numbers</code>?</strong></summary>
+  The variable <code>numbers</code> is declared using something called a list comprehension. A list comprehension is a very concise (some would say difficult to understand) way of creating a list. <code>numbers</code> is a 2D list with ten columns and ten rows. Each element is a random integer between 1 and 100. Every time you run the code, the 2D list will be populated with different numbers.
+</details><br>
 
 {try it}(python3 code/lists/printing_2d_list.py 1)
 
@@ -33,7 +36,16 @@ Rewrite the following code such that each inner list is printed on its own line.
 symbols = [["*" for columns in range(5)] for rows in range(7)]
 print(symbols)
 ```
-<details><summary>**Solution**</summary><img src=".guides/images/print_2d_solution_1.png" /></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+  ```python
+  symbols = [["*" for columns in range(5)] for rows in range(7)]
+  for row in symbols:
+    print(row)
+  ```
+  
+</details>
 
 |||
 
@@ -65,7 +77,18 @@ Rewrite the following code such that each inner list is printed on its own line 
 symbols = [["*" for columns in range(5)] for rows in range(7)]
 print(symbols)
 ```
-<details><summary>**Solution**</summary><img src=".guides/images/print_2d_solution_2.png" /></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+  ```python
+  symbols = [["*" for columns in range(5)] for rows in range(7)]
+  for row in symbols:
+    for symbol in row:
+      print(f"{symbol}", end="")
+    print()
+  ```
+  
+</details>
 
 |||
 

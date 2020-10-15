@@ -35,7 +35,10 @@ print(my_list)
 
 {try it}(python3 code/lists/list-pop.py 2)
 
-<details><summary>**`pop` versus `my_list[-1]`**</summary>`my_list[-1]` returns the last element in a list. This **does not** modify the original list. The `pop` method also returns the last element of a list, but it **always** modifies the original list. The last element has been removed from the list.</details>
+<details>
+  <summary><strong><code>pop</code> versus <code>my_list[-1]</code></strong></summary>
+  <code>my_list[-1]</code> returns the last element in a list. This <strong>does not</strong> modify the original list. The `pop` method also returns the last element of a list, but it <strong>always</strong> modifies the original list. The last element has been removed from the list.
+</details>
 
 ## Optional Parameters
 
