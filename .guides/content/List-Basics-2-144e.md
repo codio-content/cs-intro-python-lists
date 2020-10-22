@@ -25,7 +25,10 @@ print(my_list[0])
 
 {try it}(python3 code/lists/list-basics-2.py 2) 
 
-<details><summary>**Negative Indecies**</summary>Python allows you to use a negative number as an index. `-1` is the last element of the list, `-2` is the second to last, etc. It is possible to generate an error message with a negative index. Try the code above with `-5` as the index.</details>
+<details>
+  <summary><strong>Negative Indexes</strong></summary>
+  Python allows you to use a negative number as an index. <code>-1</code> is the last element of the list, <code>-2</code> is the second to last, etc. It is possible to generate an error message with a negative index. Try the code above with <code>-5</code> as the index.
+</details>
 
 ## Modifying a List
 

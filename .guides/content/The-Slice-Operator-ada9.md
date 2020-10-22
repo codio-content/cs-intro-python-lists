@@ -24,6 +24,9 @@ print(my_slice)
 
 {try it}(python3 code/lists/list-slice.py 6)
 
-<details><summary>**Slice Defaults**</summary>If no number is used for the starting point in a slice `my_list[:2]`, Python will default to 0. If no number is used for the stopping point `my_list[2:]`, Python will default to the end of the list. Using no numbers on a slice `my_list[:]`, Python will default to 0 for the start and the end of the list as the stopping point. In short, Python will return the entire list.</details>
+<details>
+  <summary><strong>Slice Defaults</strong></summary>
+  If no number is used for the starting point in a slice <code>my_list[:2]</code>, Python will default to 0. If no number is used for the stopping point <code>my_list[2:]</code>, Python will default to the end of the list. Using no numbers on a slice <code>my_list[:]</code>, Python will default to 0 for the start and the end of the list as the stopping point. In short, Python will return the entire list.
+</details>
 
 {Check It!|assessment}(parsons-puzzle-2278057412)

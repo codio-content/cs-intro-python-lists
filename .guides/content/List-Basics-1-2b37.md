@@ -50,7 +50,10 @@ print(my_list)
 
 {try it}(python3 code/lists/list-basics.py 4)
 
-<details><summary>**The Empty List**</summary>There is a special list called an empty list. This is a list that has no elements. An empty list looks like this: `my_list = []`. We will see how to add elements to an empty list in a later lesson.</details>
+<details>
+  <summary><strong>The Empty List</strong></summary>
+  There is a special list called an empty list. This is a list that has no elements. An empty list looks like this: <code>my_list = []</code>. We will see how to add elements to an empty list in a later lesson.
+</details>
 
 {Check It!|assessment}(multiple-choice-3464309383)
 

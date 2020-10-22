@@ -18,7 +18,10 @@ else:
 
 {try it}(python3 code/lists/list-length.py 1)
 
-<details><summary>**The Empty List**</summary>We already talked about the empty list, `[]`. It is a list with no elements. You can define an empty list with code if `len(my_list) == 0` is true, then the list is an empty list.</details>
+<details>
+  <summary><strong>The Empty List</strong></summary>
+  We already talked about the empty list, <code>[]</code>. It is a list with no elements. You can define an empty list with code if <code>len(my_list) == 0</code> is true, then the list is an empty list.
+</details>
 
 |||challenge
 ## What happens if you:
