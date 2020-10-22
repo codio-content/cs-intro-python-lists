@@ -16,16 +16,25 @@ colors = [
          ]
 print(colors[2])
 ```
-<details><summary>**What is hexadecimal?**</summary>Hexadecimal is a way of representing numbers using a base of 16. The symbols "0 - 9" represent the values zero to nine, and the symbols "a - f" represent the values ten to fifteen. Hexadecimal is often used to denote colors on the web.</details>
+<details>
+  <summary><strong>What is hexadecimal?</strong></summary>
+  Hexadecimal is a way of representing numbers using a base of 16. The symbols "0 - 9" represent the values zero to nine, and the symbols "a - f" represent the values ten to fifteen. Hexadecimal is often used to denote colors on the web.
+</details><br>
 
 {try it}(python3 code/lists/accessing_elements_2d_lists.py 1)
 
 |||challenge
 ## Try this variation:
 * Print the first element (the warm color palette).
-<details><summary>**Solution**</summary><pre><code>print(colors[0])</code></pre></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  <pre><code>print(colors[0])</code></pre>
+</details><br>
+
 * Print the second element (the cool color palette).
-<details><summary>**Solution**</summary><pre><code>print(colors[1])</code></pre></details>
+<details><summary><strong>Solution</strong></summary>
+  <pre><code>print(colors[1])</code></pre>
+</details>
 
 |||
 
@@ -46,11 +55,22 @@ print(colors[0][1])
 |||challenge
 ## Try this variation:
 * Print the hexadecimal color `#100ab6`.
-<details><summary>**Solution**</summary><pre><code>print(colors[1][2])</code></pre></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  <pre><code>print(colors[1][2])</code></pre>
+</details><br>
+
 * Print the hexadecimal color `#c4bdb7`.
-<details><summary>**Solution**</summary><pre><code>print(colors[2][1])</code></pre></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  <pre><code>print(colors[2][1])</code></pre>
+</details><br>
+
 * Print the hexadecimal color `#ffdd46`.
-<details><summary>**Solution**</summary><pre><code>print(colors[0][4])</code></pre></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  <pre><code>print(colors[0][4])</code></pre>
+</details>
 
 |||
 

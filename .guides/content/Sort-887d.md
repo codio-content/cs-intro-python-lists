@@ -15,7 +15,12 @@ print(my_list)
 ## What happens if you:
 * Change the list to `my_list = ["zebra", "door", "apple", "cat", "deer", "bark"]`?
 * Change the list to `my_list = [23, 15, "red", 90, -8, False]`?
-<details><summary>**Why is this wrong?**</summary>While a list can have elements of different data types, the `sort` method only works if the elements are of one type.</details>
+
+<details>
+  <summary><strong>Why is this wrong?</strong></summary>
+  While a list can have elements of different data types, the <code>sort</code> method only works if the elements are of one type.
+</details><br>
+
 * Change the list to `my_list = ["APPLE", "apple", "Apple"]`?
 
 |||

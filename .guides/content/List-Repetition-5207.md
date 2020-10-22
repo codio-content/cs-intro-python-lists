@@ -20,7 +20,10 @@ print(list_1 * 4)
 
 |||
 
-<details><summary>**What does `[]` mean?**</summary>The `[]` is called an empty list. This is a list that has no elements. If you use the `*` operator and 0 or a negative integer on a list, it will produce an empty list.</details>
+<details>
+  <summary><strong>What does <code>[]</code> mean?</strong></summary>
+  The <code>[]</code> is called an empty list. This is a list that has no elements. If you use the <code>*</code> operator and 0 or a negative integer on a list, it will produce an empty list.
+</details><br>
 
 {try it}(python3 code/lists/list-repeat.py 2)
 

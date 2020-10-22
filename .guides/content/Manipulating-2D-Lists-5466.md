@@ -47,7 +47,10 @@ for row in numbers:
   row.sort()
   print(row)
 ```
-<details><summary>**Why are the lists out of order?**</summary>The first `sort` method sorts the four inner lists, while the second `sort` method sorts the inner lists themselves. Since the first `sort` method has been commented out, the elements of each inner list are in order, the but lists themselves are not in order.</details>
+<details>
+  <summary><strong>Why are the lists out of order?</strong></summary>
+  The first <code>sort</code> method sorts the four inner lists, while the second <code>sort</code> method sorts the inner lists themselves. Since the first <code>sort</code> method has been commented out, the elements of each inner list are in order, the but lists themselves are not in order.
+</details>
 
 |||
 
@@ -102,7 +105,25 @@ numbers = [
             [1, 2, 3, 4, 5]
           ]
 ```
-<details><summary>**Solution**</summary><img src=".guides/images/manipulating_solution.png" /></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+  ```python
+  numbers = [
+                [6, 7, 10, 9, 8],
+                [12, 13, 14, 11, 15],
+                [20, 18, 17, 19, 16],
+                [1, 2, 3, 4, 5]
+            ]
+  
+  largest = 0
+  for row in numbers:
+      if max(row) > largest:
+          largest = max(row)
+  print(largest)
+  ```
+  
+</details>
 
 |||
 

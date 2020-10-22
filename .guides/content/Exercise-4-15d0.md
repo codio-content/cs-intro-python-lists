@@ -18,7 +18,10 @@ The `TEST 1` button will test your code with `numbers = [1, 2, 3, 4]`. The `TEST
 {test 1}(python3 code/lists/exercise4.py 1 2 3 4)
 {test 2}(python3 code/lists/exercise4.py -5 -4 -3 -2)
 
-<details><summary>**Where is the code visualizer?**</summary>Unfortunately, the code visualizer does not work with the statement `import sys`. Since importing the `sys` module is required for this problem, the code visualizer will not be available.</details>
+<details>
+  <summary><strong>Where is the code visualizer?</strong></summary>
+  Unfortunately, the code visualizer does not work with the statement <code>import sys</code>. Since importing the <code>sys</code> module is required for this problem, the code visualizer will not be available for this problem.
+</details><br>
 
 {Check It!|assessment}(code-output-compare-908456580)
 

@@ -6,7 +6,10 @@ The `insert` method allows you to add any object to an array. This method has tw
 
 ![List Insert](.guides/images/list-insert.png)
 
-<details><summary>**`append` versus `insert`**</summary>The `append` method will always add the object to the **end** of the list. The `insert` method gives you the ability to use **any index** you want.</details>
+<details>
+  <summary><strong><code>append</code> versus <code>insert</code></strong></summary>
+  The <code>append</code> method will always add the object to the <strong>end</strong> of the list. The <code>insert</code> method gives you the ability to use <strong>any index</strong> you want.
+</details>
 
 ```python
 my_list = [1, 2, 3, 4]

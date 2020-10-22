@@ -6,7 +6,10 @@ The previous topics about lists have been about dealing with the list as a whole
 
 ![Iteration Variable](.guides/images/iterating-list-variable-name.png)
 
-<details><summary>**Number & Numbers**</summary>In the example below, the iteration variable is `number` and the list is named `numbers`. This is a very common practice in Python. The list is always plural, while the iterating variable is the singular of the list name. Python will not throw an error if this convention is not followed. However, `for number in numbers` helps with the readability of your code. You should follow this convention as often as possible.</details>
+<details>
+  <summary><strong>Number & Numbers</strong></summary>
+  In the example below, the iteration variable is <code>number</code> and the list is named <code>numbers</code>. This is a very common practice in Python. The list is always plural, while the iterating variable is the singular of the list name. Python will not throw an error if this convention is not followed. However, <code>for number in numbers</code> helps with the readability of your code. You should follow this convention as often as possible.
+</details>
 
 ```python
 numbers = [1, 2, 3, 4]

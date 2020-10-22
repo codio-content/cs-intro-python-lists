@@ -56,16 +56,34 @@ numbers = [
 ```
 
 Iterate over the list `numbers` and for every element print `even` if it is an even number or print `odd` if it is an odd number.
-<details><summary>**Solution**</summary><img src=".guides/images/2d_iterate_solution.png" /></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+  ```python
+  numbers = [
+                [11, 13, 22, 76, 54],
+                [2, 65, 107, 112, 8],
+                [33, 90, 34, 7, 804]
+            ]
+  
+  for row in range(3):
+      for column in range(5):
+          if numbers[row][column] % 2 == 0:
+              print('even')
+          else:
+              print('odd')
+  ```
+  
+</details>
 
 |||
 [Code Visualizer](open_tutor code/lists/iterating_2d_list.py)
 
 {try it}(python3 code/lists/iterating_2d_list.py 3)
 
-## Iterating without Indices
+## Iterating without Indexes
 
-The examples above show how to use a nested loop with indices to iterate over a 2D list. We saw in an earlier section how to iterate over a traditional list in a more pythonic way. The following code snippet iterates over the list `numbers` and prints each element. No indices (`number[1]`) were used.
+The examples above show how to use a nested loop with indexes to iterate over a 2D list. We saw in an earlier section how to iterate over a traditional list in a more pythonic way. The following code snippet iterates over the list `numbers` and prints each element. No indexes (`number[1]`) were used.
 
 ```python
 numbers = [1, 2, 3, 4, 5]
@@ -74,9 +92,12 @@ for number in numbers:
   print(number)
 ```
 
-<details><summary>**What does pythonic mean?**</summary>Pythonic means using the features of the Python language to make your code simple, concise, and easy to read. In this case, use the pattern "for element in sequence" instead of the list name and an index.</details>
+<details>
+  <summary><strong>What does pythonic mean?</strong></summary>
+  Pythonic means using the features of the Python language to make your code simple, concise, and easy to read. In this case, use the pattern "for element in sequence" instead of the list name and an index.
+</details><br>
 
-This same idea can be used on a 2D list. The code below uses the mountain example but without any indices. This code is a bit easier to read since `mountain` replaces `mountains[row][column]`.
+This same idea can be used on a 2D list. The code below uses the mountain example but without any indexes. This code is a bit easier to read since `mountain` replaces `mountains[row][column]`.
 
 ```python
 mountains = [
@@ -107,7 +128,25 @@ numbers = [
 ```
 
 Iterate over the list `numbers` and for every element print `even` if it is an even number or print `odd` if it is an odd number. Write your loop such that no indices are needed.
-<details><summary>**Solution**</summary><img src=".guides/images/pythonic_2d_iterate_solution.png" /></details>
+<details>
+  <summary><strong>Solution</strong></summary>
+  
+  ```python
+  numbers = [
+                [11, 13, 22, 76, 54],
+                [2, 65, 107, 112, 8],
+                [33, 90, 34, 7, 804]
+            ]
+  
+  for row in numbers:
+      for number in row:
+          if number % 2 == 0:
+              print('even')
+          else:
+              print('odd')
+  ```
+  
+</details>
 
 
 |||
