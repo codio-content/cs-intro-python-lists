@@ -1,3 +1,5 @@
+----------
+
 ## The Slice Operator
 
 The slice operator (`:`) returns a portion of the list. Provide numbers around the slice operator to indicate where you start and stop. The slice operator includes the first number, but does **not include** the second number. The slice operator does not modify the original list. Instead, it returns a portion of the list.
