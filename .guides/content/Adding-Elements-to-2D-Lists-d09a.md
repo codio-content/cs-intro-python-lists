@@ -58,8 +58,8 @@ print(my_list)
   The output from the <code>append</code> method might be a little confusing. Here is what Python is doing:
   <ul>
   <li><strong>"g"</strong> - This creates a 2D list with three elements. The first two elements are lists of strings, while the third element is the string <code>"g"</code>.</li>
-  <li><strong>["g", "h", "i"]</strong> - This creates a 2D list with three elements. The first two elements are lists of strings, while the third element is a list with <code>"g"</code> as its only element.</li>
-  <li><strong>[["g", "h", "i"]]</strong> - This creates a 2D list with three elements. The first two elements are lists of strings, while the third element is another 2D list with the list of <code>"g"</code> as its only element.</li>
+  <li><strong>["g", "h", "i"]</strong> - This creates a 2D list with three elements. The first two elements are lists of strings, while the third element is a list with <code>"g"</code>, <code>"h"</code>, and <code>"i"</code> as its elements.</li>
+  <li><strong>[["g", "h", "i"]]</strong> - This creates a 2D list with three elements. The first two elements are lists of strings, while the third element is another 2D list with the list of <code>"g"</code>, <code>"h"</code>, and <code>"i"</code> as its elements.</li>
   </ul>
   <p>You can think of the <code>append</code> method as adding its parameter to the list. Passing <code>append</code> a string (<code>"g"</code>) will add the string as a new element. Passing <code>append</code> a list (<code>["g", "h", "i"]</code>) will add the list as a new element. Passing <code>append</code> a 2D list (<code>[["g", "h", "i"]]</code>) will add the 2D list as a new element.</p>
 </details>
