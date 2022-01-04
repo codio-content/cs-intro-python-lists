@@ -2,7 +2,7 @@
 
 ## The Sum Function
 
-The next few lessons will be focused on functions that work with lists of numbers. Using a function or a method on a list is similar in that an action performed on the list. The syntax for calling a function is different than calling a method.
+The next few lessons will be focused on functions that work with lists of numbers. Using a function or a method on a list is similar in that an action is performed on the list. The syntax for calling a function is different than calling a method.
 
 ![List Functions and Methods](.guides/images/list-functions-methods.png)
 

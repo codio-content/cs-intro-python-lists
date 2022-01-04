@@ -2,7 +2,7 @@
 
 ## List Repetition
 
-You can use the repetition operator (`*`) to a list. This is similar to string repetition from the lesson on data types.
+You can use the repetition operator (`*`) with a list. This is similar to string repetition from the lesson on data types.
 
 ```python
 list_1 = ["Hi!"]

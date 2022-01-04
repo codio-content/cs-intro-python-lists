@@ -2,7 +2,7 @@
 
 ## What is a List?
 
-Lists are a built-in data structure that groups information together. Lists do not have to be of the same data type, but often are. Lists are declared with the `[]` brackets, and a comma separates each item in a list. Lists are mutable, which means you can alter them in a variety of ways.
+Lists are built-in data structures that group information together. Lists do not have to be of the same data type, but often are. Lists are declared with the `[]` brackets, and a comma separates each item in a list. Lists are mutable, which means you can alter them in a variety of ways.
 
 ```python
 int_list = [1, 2, 3, 4, 5]
